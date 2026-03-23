@@ -22,8 +22,28 @@ class Fraccion{
             denominador = -denominador*-1;
         }
 
+        int mcd = calcularMCD(numerador, denominador){
+            this.numerador = numerador/mcd;
+            this.denominador = denominador/mcd;
+        }
 
     }
+
+
+    public Fraccion sumar(Fraccion diferente)
+
+    public Fraccion restar(Fraccion diferente)
+
+    public Fraccion multiplicar(Fraccion diferente)
+
+    public Fraccion dividir(Fraccion diferente)
+
+
+
+
+    public Fraccion inversa()
+
+    public Fraccion opuesta()
 
 
 
