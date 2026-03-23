@@ -39,12 +39,14 @@ class Fraccion{
     public Fraccion dividir(Fraccion diferente)
 
 
-
-
     public Fraccion inversa()
 
     public Fraccion opuesta()
 
+
+    public boolean esIgual()
+
+    public String toString()
 
 
 }
