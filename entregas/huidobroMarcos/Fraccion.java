@@ -1,4 +1,4 @@
-package entregas;
+package entregas.huidobroMarcos;
 
 class Fraccion{
 
@@ -67,11 +67,11 @@ class Fraccion{
 
 
 
-    public Fraccion opuesta(){
+    public Fraccion oponer(){
         return new Fraccion(-this.numerador,this.denominador);
     }
 
-    public Fraccion inversa(){
+    public Fraccion invertir(){
         return new Fraccion(this.denominador,this.numerador);
     }
 
