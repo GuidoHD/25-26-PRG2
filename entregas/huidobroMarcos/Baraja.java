@@ -11,8 +11,12 @@ class Baraja{
     private Random random = new Random();
 
     public Carta sacarCarta(){
-        
+        String valor = valores[random.nextInt(valores.length)];
+        String palo = palos[random.nextInt(palos.length)];
+
+        return new Carta(valor, palo);
     }
+
 
 
 }
